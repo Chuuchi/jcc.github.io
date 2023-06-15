@@ -1,0 +1,25 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-navlink {
+  color: var(--dl-color-gray-white);
+  border: none;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-100);
+}
+.component-navlink:hover {
+  background-color: #e4c76e;
+}
+
+@media(max-width: 767px) {
+  .component-navlink {
+    text-align: center;
+  }
+}
