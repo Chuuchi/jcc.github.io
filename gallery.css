@@ -401,6 +401,9 @@
   }
 }
 @media(max-width: 767px) {
+  .gallery-top-container {
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
   .gallery-links-container {
     width: 766px;
     height: 141px;
@@ -412,6 +415,7 @@
     text-align: center;
   }
   .gallery-navlink5 {
+    height: 28px;
     text-align: center;
   }
   .gallery-gallery {
